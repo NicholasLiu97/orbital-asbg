@@ -48,18 +48,18 @@ users through online match-making.
 5. No piece is able to take over the position of another piece unless that piece dies or moves away.
 
 6. Attributes
-  6.1. Hp
+  * Hp
       - Life of pieces
       - Piece dies when Hp reaches 0
-  6.2. Movement speed
+  * Movement speed
       - Number of cells a piece is able to move to
       - 1 (only adjacent 4 cells)
       - 2 (2 cells away, non-diagonal)
       - 3 (3 cells away, non-diagonal)
       - 4 (4 cells away, non-diagonal)
-  6.3. Attack
+  * Attack
       - Attack power of the unit, used to determine outcome of an attack
-  6.4. Attack range
+  * Attack range
       - Number of cells away a piece is able to attack on
       - 1 (only adjacent 4 cells)
       - 2 (2 cells away, non-diagonal)
@@ -84,7 +84,7 @@ less than or equal to the sum for the defender, no attack occurs and nothing hap
      * Long-ranged unit. Hp 5 Movement speed 1 Attack 2 Attack range 3
   * Mage
      * Support unit. Hp 6 Movement speed 1 Attack 2 Attack range 2
-     * Can 'attack' own unit, which heals the target by 2 Hp points.
+     * Can 'attack' own unit, which increases the Hp of the target by 2 points
   * Cavalry
      * Balanced unit. Hp 8 Movement speed 2 Attack 2 Attack range 1
   * Infantry
@@ -141,13 +141,15 @@ July
 
 Last week of July
 - Research on photon unity networking
+- Milestone 3 preparation
 
 By 1st week of August
 - Complete game prototype with game menu and game guide
 
 August
 - Implement game in online multiplayer mode 
-- upgrade graphics if time permits
+- Upgrade graphics if time permits
 
 By end August
 - Finalize game and ensure 2 players can play on 2 different laptops
+- Splashdown preparation

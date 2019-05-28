@@ -20,7 +20,7 @@ users through online match-making.
 1. Main menu for players to start game and exit. Both players will be using the same console (to be upgraded to online multiplayer
    if time and complexity permits).
 
-2. The game board is a 9x9 board with white pieces on one side and black pieces on the other side, just like the game of chess.
+2. The game board is a 9x9 board with red pieces on one side and blue pieces on the other side, just like the game of chess.
 
 3. Pieces include archer, scout, mage, infantry, cavalry and general. 
 
@@ -31,17 +31,16 @@ users through online match-making.
 
 6. Specific tiles on the board are 'special' tiles, which give certain pieces buffs that increase specific attributes.
 
-7. One turn consists of 2 moves, which are to attack or advance. Advance allows selected piece to change position. Attack allows
-   piece to launch an attack on target piece.   
+7. One turn consists of 2 actions, which are to either attack or move. Moving allows selected piece to change position. Attack allows
+   piece to launch an attack on a target piece.   
 
 ## Rules
 
-1. The goal of the game is to successfully capture the opposing general. The game ends when either the player's or opponent's general
-   is captured, or when a player surrenders.
+1. The goal of the game is to successfully capture the opposing general. The game ends when either the player's or opponent's general's    health reaches zero, or when a player surrenders.
 
 2. At the start of the game, each player will choose between 3 types of generals, shining knight, dragon knight or armored titan.   
 
-3. Each player will take turns making their moves. A turn consists of 2 moves, which are to attack or advance. In one turn, a player
+3. Each player will take turns making their moves. A turn consists of 2 actions, which are to attack or move. In one turn, a player
    can select any piece and must execute exactly 2 moves. 
 
 4. Each piece can only move over a pre-assigned number of steps or attack over a pre-assigned area of cells. 
@@ -59,7 +58,7 @@ users through online match-making.
       - 3 (3 cells away, non-diagonal)
       - 4 (4 cells away, non-diagonal)
   6.3. Attack
-      - attack power of the unit, used to determine outcome of an attack
+      - Attack power of the unit, used to determine outcome of an attack
   6.4. Attack range
       - Number of cells away a piece is able to attack on
       - 1 (only adjacent 4 cells)
@@ -68,7 +67,7 @@ users through online match-making.
  
 7. Movement 
     - Pieces can only move based on the movement speed attribute it has. Any number of steps less than or equal to the movement
-      speed is allowed (minimum of 1).
+      speed is allowed (minimum of 1)
     - Potential cells would be highlighted on the board
 
 8. Attack     
@@ -113,37 +112,41 @@ less than or equal to the sum for the defender, no attack occurs and nothing hap
 
 May - 1st week of June 
 - Go through online tutorials on unity and c#
+- Brainstorming of game pieces
+- Discussing and testing of game mechanics
 
 Last week of May
 - Milestone 1 preparation
 - Develop main frame and board for game
+- Develop pieces to be shown on gameboard
+- Input basic movement for pieces
 
 June
 - Ensure game in unity is turn-based and pieces can move to their designated spots
-- Ensure pieces can kill each other
-- adding animation to pieces moving
+- Add attack option for game pieces
+- Assign Health to be displayed for game pieces
+- Code in special effects for special terrain(hill, barracks)
 - Milestone 2 preparation
 
 June to July
-- Testing mechanics on game and ensure gameplay is balanced
+- Testing game mechanics on game and ensure gameplay is balanced
 
-By 2nd Week of July
-- Finalize mechanics
+By 1st week of July
+- Create working game board prototype
 
 July 
+- Adding in game menu interface for for start game and game guide
 - Ensure pieces can make decisions to move or kill 
-- Adding special cells that provide buffs on unity
-- upgrading animation
-- adding attack animation to make game cooler
+- Adding animation for movement and attack
 
 Last week of July
 - Research on photon unity networking
 
 By 1st week of August
-- Finalize gameplay
+- Complete game prototype with game menu and game guide
 
 August
-- Implement game in online multiplayer mode
+- Implement game in online multiplayer mode 
 - upgrade graphics if time permits
 
 By end August

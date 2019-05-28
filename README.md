@@ -78,8 +78,8 @@ power and the dice roll of the defender will be added to the defender's attack p
 the sum for the defender, the difference is taken and the defender's Hp is reduced by that amount. If the sum for the attacker is
 less than or equal to the sum for the defender, no attack occurs and nothing happens.
 
-9. Pieces (attributes are tentative)
-  9.1. Scouts
+* Pieces (attributes are tentative)
+  * Scouts
       - Fast and deadly unit. Hp 4 Movement speed 3 Attack 3 Attack range 1
   9.2. Archers
       - Long-ranged unit. Hp 5 Movement speed 1 Attack 2 Attack range 3

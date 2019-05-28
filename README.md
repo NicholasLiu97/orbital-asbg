@@ -1,4 +1,4 @@
-# orbital-asbg
+# ASBG
 
 ASBG is an online 2 player board game modelled using ideas from the game of chess and memoir44. The goal of the game is to capture
 the opponent's general by slowly advancing game pieces in strategic locations.

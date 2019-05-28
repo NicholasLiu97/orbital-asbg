@@ -3,6 +3,10 @@
 ASBG is an online 2 player board game modelled using ideas from the game of chess and memoir44. The goal of the game is to capture
 the opponent's general by slowly advancing game pieces in strategic locations.
 
+# Level of Achievement
+
+Gemini
+
 ## Motivation 
 
 We have always wanted to try making our own version of a strategic game. It is an idea that we found interesting and could be an 

@@ -78,36 +78,36 @@ power and the dice roll of the defender will be added to the defender's attack p
 the sum for the defender, the difference is taken and the defender's Hp is reduced by that amount. If the sum for the attacker is
 less than or equal to the sum for the defender, no attack occurs and nothing happens.
 
-* Pieces (attributes are tentative)
+9. Pieces (attributes are tentative)
   * Scouts
-      - Fast and deadly unit. Hp 4 Movement speed 3 Attack 3 Attack range 1
-  9.2. Archers
-      - Long-ranged unit. Hp 5 Movement speed 1 Attack 2 Attack range 3
-  9.3. Mage
-      - Support unit. Hp 6 Movement speed 1 Attack 2 Attack range 2
-      - Can 'attack' own unit, which heals the target by 2 Hp points.
-  9.4. Cavalry
-      - Balanced unit. Hp 8 Movement speed 2 Attack 2 Attack range 1
-  9.5. Infantry
-      - normal unit. Hp 7 Movement speed 1 Attack 2 Attack range 1
-  9.6. Generals
-      - boss unit. 
-      - Shining Knight Hp 10 Movement speed 1 Attack 3 Attack range 2
-      - Dragon Knight Hp 8 Movement speed 2 Attack 4 Attack range 1
-      - Armored Titan Hp 12 Movement speed 1 Attack 3 Attack range 1
+     * Fast and deadly unit. Hp 4 Movement speed 3 Attack 3 Attack range 1
+  * Archers
+     * Long-ranged unit. Hp 5 Movement speed 1 Attack 2 Attack range 3
+  * Mage
+     * Support unit. Hp 6 Movement speed 1 Attack 2 Attack range 2
+     * Can 'attack' own unit, which heals the target by 2 Hp points.
+  * Cavalry
+     * Balanced unit. Hp 8 Movement speed 2 Attack 2 Attack range 1
+  * Infantry
+     * normal unit. Hp 7 Movement speed 1 Attack 2 Attack range 1
+  * Generals
+      * boss unit 
+      * Shining Knight Hp 10 Movement speed 1 Attack 3 Attack range 2
+      * Dragon Knight Hp 8 Movement speed 2 Attack 4 Attack range 1
+      * Armored Titan Hp 12 Movement speed 1 Attack 3 Attack range 1
  
 10. Buff cells (triggered only on this cell)
-   10.1. Hill
-       Scouts - Movement speed +1
-       Archers - Attack +1
-       Infantry - Attack +1
-       Cavalry - Attack +1
-       Mage - Attack range +1
-       Shining Knight - Attack +1
-       Dragon Knight - Attack range +1
-       Armored Titan - Movement speed +1
-   10.2. Barracks 
-       Infantry - Hp +1 Attack +1 
+   * Hill
+      * Scouts - Movement speed +1
+      * Archers - Attack +1
+      * Infantry - Attack +1
+      * Cavalry - Attack +1
+      * Mage - Attack range +1
+      * Shining Knight - Attack +1
+      * Dragon Knight - Attack range +1
+      * Armored Titan - Movement speed +1
+   * Barracks 
+      * Infantry - Hp +1 Attack +1 
 
 ## Execution plan
 

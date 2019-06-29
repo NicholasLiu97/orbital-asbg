@@ -1,8 +1,47 @@
 # ASBG
 
 ASBG is an online 2 player board game modelled using ideas from the game of chess and memoir44. The goal of the game is to capture
-the opponent's general by slowly advancing game pieces in strategic locations. 
+the opponent's general by slowly advancing game pieces in strategic locations. For milestone 2, our goal was to create a working
+prototype where users are able to complete the game. For this milestone, the gameplay has not been finalised as we needed more
+time to ensure a proper balance between all the pieces in the game as well as make sure one game does not take up too much time. 
+However, we ensured that the pieces are able to move and attack appropriately based on their assigned stats as well as ensuring the
+game comes to an end when either player defeats the boss piece of the other.
 
 # Level of Achievement
 
 Gemini
+
+# Features
+1. Main menu for players to start game and exit. Turn-based where both players will be using the same console (to be upgraded to 
+   online multiplayer if time and complexity permits). Once game is started, each player will get to choose between 3 generals
+   (shining knight, dragon knight and armored titan). 
+   
+
+# Problems Faced
+
+1. Coming up with a proper way for pieces to attack each other
+   - Tentatively, we used RNG between 1 to 6 to decide the outcome of an attack. More testing needs to be done since the RNG range
+     might be too large.
+     
+2. Deciding between attack and movement for individual pieces     
+   - Initially, we wanted to implement an "attack" button and an "advance" button that would appear side by side when the player 
+     selects a unit. The "attack" button would show the cells the piece can launch an attack on while the "advance" button would
+     show the cells the piece can move to. However, this could make it confusing for the player to decide if he wants to attack or
+     move since the "attack" and "advance" cells are not shown together. 
+   - Hence, we decided to remove the buttons and superimpose the possible "attack" and "advance" cells with red and black outlines 
+     respectively when the player selects a unit.
+ 
+3. Including main menu feature
+   - The goal for this milestone was to esnure the game can be properly executed without hiccups. Any addtional features were not
+     touched on much so the main menu was not included this time since we are still working on it. Hence, for this milestone, the 
+     generals are preset and players cannot choose the geenral they want to use.
+     
+
+
+# Things to improve on for milestone 3
+
+1. Making visuals more appealing
+2. Have animation for movement of troops to make game more interesting
+3. Include attack or defence texts to show how a battle between 2 pieces went. Possibly add animation to show a successful kill or
+   defence
+4. Improving gameplay and finalising the hp, attack and attack range of the troops

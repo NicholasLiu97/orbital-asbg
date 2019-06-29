@@ -12,10 +12,64 @@ game comes to an end when either player defeats the boss piece of the other.
 Gemini
 
 # Features
-1. Main menu for players to start game and exit. Turn-based where both players will be using the same console (to be upgraded to 
+1. Main menu
+   - Main menu for players to start game and exit. Turn-based where both players will be using the same console (to be upgraded to 
    online multiplayer if time and complexity permits). Once game is started, each player will get to choose between 3 generals
    (shining knight, dragon knight and armored titan). 
+   *INSERT IMAGES HERE*
+   Once the selection is done, the players will be brought to the game board with red and blue pieces on either side.
    
+2. Game board
+   - The game board is a 9x9 board with red pieces on one side and blue pieces on the other side, just like the game of chess. 
+   - The game board is designed such that each player will have 2 rows of his own pieces, with the front row filled with infantry 
+     and and the back row containing scout, mage, archer, cavalry, general, cavalry, archer, mage and scout in that order.
+     *INSERT IMAGE HERE*
+     
+3. Pieces 
+   - Each game piece is assigned 4 attributes, which are health, attack power, attack range and movement range. Each piece is
+     assigned different levels of each attribute.
+   * Scouts
+      * Fast and deadly unit. Hp 4 Movement speed 3 Attack 3 Attack range 1
+   * Archers
+      * Long-ranged unit. Hp 5 Movement speed 1 Attack 2 Attack range 3
+   * Mage
+      * Support unit. Hp 6 Movement speed 1 Attack 2 Attack range 2
+      * Can 'attack' own unit, which increases the Hp of the target by 2 points
+   * Cavalry
+      * Balanced unit. Hp 8 Movement speed 2 Attack 2 Attack range 1
+   * Infantry
+      * normal unit. Hp 7 Movement speed 1 Attack 2 Attack range 1
+   * Generals
+       * boss unit 
+       * Shining Knight Hp 10 Movement speed 1 Attack 3 Attack range 2
+       * Dragon Knight Hp 8 Movement speed 2 Attack 4 Attack range 1
+       * Armored Titan Hp 12 Movement speed 1 Attack 3 Attack range 1
+
+4. Every turn
+   - Every turn, the player can select any piece using the cursor to either move or attack, based on the piece's attack range or 
+     movement range.
+   - Possible cells that a piece can either move to or launch an attack on will be outlined (red for attack and black for movement).
+     When the player selects one of the outlined cells, his choice would be executed and his turn would be completed. 
+   - This would alternate between both players.
+   *INSERT IMAGE HERE*
+   
+5. Attack
+   - An attack will occur when a player selects his piece to a cell that is outlined in red and contains the opponent piece. 
+   - There are 2 outcomes of an attack, a success of a fail. The attacker would not receive any reduction in hp no matter the 
+     outcome. 
+   - The outcome is determined by a dice roll between 1 to 6. This dice roll would be done for both the attacker and defender using 
+     RNG. The dice roll of the defender and attacker would be added to their respective attack power. If the sum for the attacker is
+     lower than or equal to that of the defender, the result is a fail and nothing happens. If the sum for the attacker is higher than 
+     that of the defender, the difference would be taken and this difference would be deducted from the defender's hp. 
+   - When the hp of a piece is deducted to 0, it will be removed from the board.
+ 
+6. Special cells 
+   - The board has designated special cells (hill and barracks) that give the pieces certain increase to specific attributes. 
+   - Hill gives +2 attack
+   - Barracks give +2 hp
+   
+7. Endgame
+   - The game ends when either player's general is killed (i.e hp reduced to 0) and the board would be reset.
 
 # Problems Faced
 
@@ -40,8 +94,12 @@ Gemini
 
 # Things to improve on for milestone 3
 
-1. Making visuals more appealing
-2. Have animation for movement of troops to make game more interesting
+1. Making visuals more appealing.
+2. Have animation for movement of troops to make game more interesting.
 3. Include attack or defence texts to show how a battle between 2 pieces went. Possibly add animation to show a successful kill or
-   defence
-4. Improving gameplay and finalising the hp, attack and attack range of the troops
+   defence.
+4. Improving gameplay and finalising the hp, attack and attack range of the troops.
+5. Showing the attack power, attack range and movement range of each unit so that places do not have to remember the attribute of 
+   each piece.
+6. Main menu for players to choose their general.   
+6. Introducing game over screen for players to reset thier choice of general and replay the game.

@@ -10,29 +10,37 @@ public abstract class BasePiece : EventTrigger
     [HideInInspector] public Color mColor = Color.clear;
 
 
+    //animation
+    public Animator animator;
+    public TextMeshProUGUI textMeshPro;
+
     //Piece Health
     public Slider healthSlider;
     public int CurrentHealth;
     public int maxHealth;
     public Text healthText;
 
-    protected Cell mOriginalCell = null;
+    protected Cell mOriginalCell = null; // reset the pieces once the game is over
     public Cell mCurrentCell = null;
+    
 
     protected RectTransform mRectTransform = null;
     protected PieceManager mPieceManager;
 
-    public Cell mTargetCell = null;
+    public Cell mTargetCell = null; //cell that cursor is pointing to
 
     protected Vector3Int mMovement = new Vector3Int(1, 1, 0);
     public List<Cell> mHighlightedCells = new List<Cell>();
 
     //Added for attack
-    protected Vector3Int mAttackRange = new Vector3Int(1, 1, 0);
+    protected Vector3Int mAttackRange = new Vector3Int(1, 1, 1);
     public List<Cell> mAttackHighlightedCells = new List<Cell>();
     protected int mAttack;
-    protected int mDiceMax = 4;
     protected int EnemyRoll, FriendlyRoll;
+    private int[] iRange = { 1, 1, 1, 1, 1, 1, 2, 2, 2, 2 };
+    private int[] sRange = { 2, 3 };
+    private int[] cRange = { 2, 2, 2, 2, 2, 2, 2, 3, 3, 3 };
+    private int[] gRange = { 2, 3, 3, 3, 3, 3, 3, 4, 4, 4 };
 
     public virtual void Setup(Color newTeamColor, Color32 newSpriteColor, PieceManager newPieceManager)
     {
@@ -43,10 +51,10 @@ public abstract class BasePiece : EventTrigger
         mRectTransform = GetComponent<RectTransform>();
 
         //assigning health
-        CurrentHealth = 7;
-        maxHealth = 7;
+        CurrentHealth = 4;
+        maxHealth = 4;
         mAttack = 2;
-
+            
         //Setting up the piece health
         healthSlider = GetComponentInChildren<Slider>();
         healthSlider.maxValue = maxHealth;
@@ -55,6 +63,10 @@ public abstract class BasePiece : EventTrigger
         
         healthText.text = CurrentHealth.ToString();
 
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
     }
      
     
@@ -64,12 +76,13 @@ public abstract class BasePiece : EventTrigger
         //cell
         mCurrentCell = newCell;
         mOriginalCell = newCell;
-        mCurrentCell.mCurrentPiece = this;
+        mCurrentCell.mCurrentPiece = this; //get current piece and set current piece to the instance of the script
+        //mPreviousCell = newCell;
         UpdateStats();
 
 
         //Object
-        transform.position = newCell.transform.position;
+        transform.position = newCell.transform.position; //set position of piece to align with the cell it is assigned to
         gameObject.SetActive(true);
     }
 
@@ -171,6 +184,9 @@ public abstract class BasePiece : EventTrigger
         //if enemy piece,remove it
         mTargetCell.RemovePiece();
 
+        //Store previous cell data
+        //mPreviousCell = mCurrentCell;
+
         //clear current
         mCurrentCell.mCurrentPiece = null;
 
@@ -258,13 +274,89 @@ public abstract class BasePiece : EventTrigger
 
     public virtual void Attack()
     {
-        mTargetCell.ReducePieceHealth(mAttack);
-        mTargetCell.mCurrentPiece.UpdateHealth();
-        if (mTargetCell.mCurrentPiece.CurrentHealth <= 0) //if piece dies
+        int RolledAttack;
+        bool critical = false;
+
+        Debug.Log("piece type is " + mPieceManager.mSelectedPiece.GetType());
+        Debug.Log("piece type of defending piece is " + mTargetCell.mCurrentPiece.GetType());
+        /*
+        if (mPieceManager.mSelectedPiece.GetType() == typeof(Pawn))
         {
-            mTargetCell.RemovePiece();
+            Debug.Log("you have selected pawn to attack");
+        } else
+        {
+            Debug.Log("unsure of what is this");
+        }
+        */
+        if (mPieceManager.mSelectedPiece.GetType() == typeof(Pawn))
+        {
+            RolledAttack = iRange[Random.Range(0, iRange.Length)];
+            if (RolledAttack == 2)
+            {
+                critical = true;
+            }
+
+
+        } else if (mPieceManager.mSelectedPiece.GetType() == typeof(Cavalry))
+        {
+            RolledAttack = cRange[Random.Range(0, cRange.Length)];
+            if (RolledAttack == 3)
+            {
+                critical = true;
+            }
+        } else if (mPieceManager.mSelectedPiece.GetType() == typeof(Scout))
+        {
+            RolledAttack = sRange[Random.Range(0, sRange.Length)];
+            if (RolledAttack == 3)
+            {
+                critical = true;
+            }
+        } else if (mPieceManager.mSelectedPiece.GetType() == typeof(General) || mPieceManager.mSelectedPiece.GetType() == typeof(Dragon) ||
+            mPieceManager.mSelectedPiece.GetType() == typeof(Titan))
+        {
+            RolledAttack =  gRange[Random.Range(0, gRange.Length)];
+            if (RolledAttack == 4)
+            {
+                critical = true;
+            }
+        } else
+        {
+            RolledAttack = 2; //for mage and archer
+        }
+
+        if (mCurrentCell.tag == "Attack")
+        {
+            RolledAttack += 1;
+        }
+
+        Debug.Log("rolled attack = " + RolledAttack);
+
+        mTargetCell.mCurrentPiece.DamagePiece(RolledAttack);
+        mTargetCell.mCurrentPiece.AnimationDamage(RolledAttack, critical);
+        //        bool critical = mTargetCell.ReducePieceHealth(RolledAttack, mTargetCell.mCurrentPiece.mAttack);
+        mTargetCell.mCurrentPiece.UpdateHealth();
+        
+        
+        //added change animation boolean
+        if (critical)
+        {
+            SoundManagerScript.PlaySound("hit");
+            mTargetCell.mCurrentPiece.animator.SetBool("crit", true);
+        }
+        else
+        {
+            SoundManagerScript.PlaySound("hit");
+            mTargetCell.mCurrentPiece.animator.SetBool("attacked", true);
         }
         
+        
+        if (mTargetCell.mCurrentPiece.CurrentHealth <= 0) //if piece dies
+        {
+            Delaytime(); //TO DEBUG
+            SoundManagerScript.PlaySound("death");
+            mTargetCell.RemovePiece();
+        }
+
     }
 
     public virtual void DamagePiece(int mAttack)
@@ -275,24 +367,64 @@ public abstract class BasePiece : EventTrigger
     public virtual void UpdateHealth()
     {
         healthSlider.value = CurrentHealth;
-        healthText.text = CurrentHealth.ToString();
+        healthText.text = CurrentHealth.ToString(); 
     }
 
+    public void AnimationDamage(int DamageTaken, bool critical)
+    {
 
+        if (critical)
+        {
+            textMeshPro.text = "-" + DamageTaken.ToString() + " crit";
+        }
+        else
+        {
+            textMeshPro.text = "-" + DamageTaken.ToString();
+        }
+    }
+
+    //original
+    /*
+    public void AnimationDamage(int DamageTaken, int EnemyRoll)
+    {
+
+        if (EnemyRoll == 3)
+        {
+            textMeshPro.text = "-" + DamageTaken.ToString() + " crit";
+        }
+        else
+        {
+            textMeshPro.text = "-" + DamageTaken.ToString();
+        }
+    }
+    */
+    IEnumerator Delaytime()
+    {
+        yield return new WaitForSeconds(SoundManagerScript.PlayerHit.length);
+    }
     #endregion
 
 
     #region Buffs
     public void UpdateStats()
     {
+        
         if (mCurrentCell.tag == "Hill")
         {
-            mAttack += 2;
+            Debug.Log("increasing range");
+            mAttackRange += new Vector3Int(1, 1 ,0);
         }
         else if (mCurrentCell.tag == "Barrack")
         {
-            CurrentHealth += 2;
-            UpdateHealth();
+            //Movement cell
+            mMovement += new Vector3Int(1, 1, 0);
+            
+        }
+        else if (mCurrentCell.tag == "Attack")
+        {
+            //attack cell
+            mAttack += 1;
+
         }
     }
 
@@ -300,12 +432,17 @@ public abstract class BasePiece : EventTrigger
     {
         if (mCurrentCell.tag == "Hill")
         {
-            mAttack -= 2;
+            mAttackRange -= new Vector3Int(1, 1, 0); ;
         }
         else if (mCurrentCell.tag == "Barrack")
         {
-            CurrentHealth -= 2;
-            UpdateHealth();
+            //movement cell
+            mMovement -= new Vector3Int(1, 1, 0);
+        }
+        else if (mCurrentCell.tag == "Attack")
+        {
+            //movement cell
+            mAttack -= 1;
         }
     }
 
@@ -330,6 +467,9 @@ public abstract class BasePiece : EventTrigger
             Debug.Log("not selected");
             //Current piece is selected
             mPieceManager.mSelectedPiece = this;
+            //clears any previously undeleted data
+            mPieceManager.mSelectedPiece.ClearAttackCells();
+
 
             //test for cells
             CheckPathing();

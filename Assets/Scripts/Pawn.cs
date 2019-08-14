@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Pawn : BasePiece
 {
     public override void Setup(Color newTeamColor, Color32 newSpriteColor, PieceManager newPieceManager)
@@ -10,11 +11,11 @@ public class Pawn : BasePiece
 
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueInfantry_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueInfantry_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedInfantry_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedInfantry_1.0");
         }
 
         

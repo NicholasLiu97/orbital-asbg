@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 public class Dragon : BasePiece
 {
     //private new int CurrentHealth = 8;
@@ -18,7 +20,7 @@ public class Dragon : BasePiece
         //assigning health
         CurrentHealth = DragonMaxHealth;
         maxHealth = DragonMaxHealth;
-        mAttack = 4;
+        mAttack = 3;
 
         //Setting up the piece health
         healthSlider = GetComponentInChildren<Slider>();
@@ -28,13 +30,21 @@ public class Dragon : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
+        //movement 
+        mMovement = new Vector3Int(2, 2, 1);
+
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueDragon_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueDragon_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedDragon_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedDragon_1.0");
         }
     }
 
@@ -48,9 +58,8 @@ public class Dragon : BasePiece
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = DragonMaxHealth;
-        healthSlider.value = DragonMaxHealth;
-        healthText.text = DragonMaxHealth.ToString();
     }
 }

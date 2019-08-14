@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 public class General : BasePiece
 {
     //private new int CurrentHealth = 10;
@@ -28,16 +30,24 @@ public class General : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
+        //movement
+        mMovement = new Vector3Int(1, 1, 1);
+        mAttackRange = new Vector3Int(2, 2, 1);
+
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueGeneral_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueGeneral_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedGeneral_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedGeneral_1.0");
         }
 
-        mAttackRange = new Vector3Int(2, 2, 0);
     }
 
     public override void Kill()
@@ -50,9 +60,8 @@ public class General : BasePiece
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = GenMaxHealth;
-        healthSlider.value = GenMaxHealth;
-        healthText.text = GenMaxHealth.ToString();
     }
 }

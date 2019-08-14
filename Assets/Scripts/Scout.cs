@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class Scout : BasePiece
 {
-    //private new int CurrentHealth = 4;
-    private int ScoutMaxHealth = 4;
+    //private new int CurrentHealth = 5;
+    private int ScoutMaxHealth = 5;
 
     public override void Setup(Color newTeamColor, Color32 newSpriteColor, PieceManager newPieceManager)
     {
@@ -18,7 +19,7 @@ public class Scout : BasePiece
         //assigning health
         CurrentHealth = ScoutMaxHealth;
         maxHealth = ScoutMaxHealth;
-        mAttack = 3;
+        mAttack = 2;
 
         //Setting up the piece health
         healthSlider = GetComponentInChildren<Slider>();
@@ -28,27 +29,32 @@ public class Scout : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
-        mMovement = new Vector3Int(3, 3, 3);
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
+        
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueScout_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueScout_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedScout_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedScout_1.0");
         }
 
-        mMovement = new Vector3Int(3, 3, 0);
-        
+        mMovement = new Vector3Int(8, 8, 0);
+        mAttackRange = new Vector3Int(1, 1, 0);
+
     }
 
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = ScoutMaxHealth;
-        healthSlider.value = ScoutMaxHealth;
-        healthText.text = ScoutMaxHealth.ToString();
     }
 
    

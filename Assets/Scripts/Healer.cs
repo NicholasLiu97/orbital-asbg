@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class Healer : BasePiece
 {
     //private new int CurrentHealth = 6;
@@ -29,25 +29,30 @@ public class Healer : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueHealer_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueHealer_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedHealer_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedHealer_1.0");
         }
 
 
         mAttackRange = new Vector3Int(2, 2, 0);
+        mMovement = new Vector3Int(2, 2, 1);
     }
 
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = HealerMaxHealth;
-        healthSlider.value = HealerMaxHealth;
-        healthText.text = HealerMaxHealth.ToString();
     }
 }

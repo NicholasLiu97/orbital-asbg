@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class Cavalry : BasePiece
 {
     //private new int CurrentHealth = 8;
@@ -28,24 +29,28 @@ public class Cavalry : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueCavalry_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueCavalry_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedCavalry_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedCavalry_1.0");
         }
 
-        mMovement = new Vector3Int(2, 2, 0);
+        mMovement = new Vector3Int(2, 2, 1);
     }
 
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = CavMaxHealth;
-        healthSlider.value = CavMaxHealth;
-        healthText.text = CavMaxHealth.ToString();
     }
 }

@@ -1,0 +1,3821 @@
+fileFormatVersion: 2
+guid: 84a4e64b85530c84c89215d9b2ba5783
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3158790935512845484
+    second: td__runes_0
+  - first:
+      213: 6955063998422169649
+    second: td__runes_1
+  - first:
+      213: 4235866238817859831
+    second: td__runes_2
+  - first:
+      213: 9104682585007121147
+    second: td__runes_3
+  - first:
+      213: -823465559549527325
+    second: td__runes_4
+  - first:
+      213: 8925850549109168897
+    second: td__runes_5
+  - first:
+      213: 2525800567512972917
+    second: td__runes_6
+  - first:
+      213: -1814502703499219342
+    second: td__runes_7
+  - first:
+      213: -52958305810916934
+    second: td__runes_8
+  - first:
+      213: 3396141729511767660
+    second: td__runes_9
+  - first:
+      213: -4031628998451660446
+    second: td__runes_10
+  - first:
+      213: 6322372660078602024
+    second: td__runes_11
+  - first:
+      213: 18708388927277845
+    second: td__runes_12
+  - first:
+      213: 2128835785101183906
+    second: td__runes_13
+  - first:
+      213: 1654957585839294132
+    second: td__runes_14
+  - first:
+      213: 5585835991857498879
+    second: td__runes_15
+  - first:
+      213: -5301464985012286502
+    second: td__runes_16
+  - first:
+      213: -4923545385156065937
+    second: td__runes_17
+  - first:
+      213: -4439863172598765311
+    second: td__runes_18
+  - first:
+      213: 6987154841806939718
+    second: td__runes_19
+  - first:
+      213: -7107009130086392795
+    second: td__runes_20
+  - first:
+      213: -8099884871622102989
+    second: td__runes_21
+  - first:
+      213: 6199699214273794411
+    second: td__runes_22
+  - first:
+      213: -2180011100023296529
+    second: td__runes_23
+  - first:
+      213: 7300195261512517492
+    second: td__runes_24
+  - first:
+      213: 1076427611768162937
+    second: td__runes_25
+  - first:
+      213: -1150962536322504504
+    second: td__runes_26
+  - first:
+      213: -1377662696327310834
+    second: td__runes_27
+  - first:
+      213: 2007329156800315797
+    second: td__runes_28
+  - first:
+      213: 7517993670013749814
+    second: td__runes_29
+  - first:
+      213: -2993051514842159878
+    second: td__runes_30
+  - first:
+      213: -6462606550067789375
+    second: td__runes_31
+  - first:
+      213: 4738845711148965920
+    second: td__runes_32
+  - first:
+      213: -8495784824084788388
+    second: td__runes_33
+  - first:
+      213: 8826465632896623525
+    second: td__runes_34
+  - first:
+      213: 8664021549428501278
+    second: td__runes_35
+  - first:
+      213: -1182732593731583665
+    second: td__runes_36
+  - first:
+      213: 1714054355831794231
+    second: td__runes_37
+  - first:
+      213: 3898222242253131231
+    second: td__runes_38
+  - first:
+      213: 2760171407186050606
+    second: td__runes_39
+  - first:
+      213: -7440255849435242714
+    second: td__runes_40
+  - first:
+      213: 365671304182209228
+    second: td__runes_41
+  - first:
+      213: -5493448890674461385
+    second: td__runes_42
+  - first:
+      213: -6994422283224132970
+    second: td__runes_43
+  - first:
+      213: -5314882444234677180
+    second: td__runes_44
+  - first:
+      213: -1647846032331301162
+    second: td__runes_45
+  - first:
+      213: -1665873130491823899
+    second: td__runes_46
+  - first:
+      213: -950395556402636082
+    second: td__runes_47
+  - first:
+      213: -7593714744425608628
+    second: td__runes_48
+  - first:
+      213: 8813088149381947868
+    second: td__runes_49
+  - first:
+      213: -5903090285408987046
+    second: td__runes_50
+  - first:
+      213: -868570321707034320
+    second: td__runes_51
+  - first:
+      213: 8811104527406911011
+    second: td__runes_52
+  - first:
+      213: -6733025347069164482
+    second: td__runes_53
+  - first:
+      213: -1330841614650908809
+    second: td__runes_54
+  - first:
+      213: 2169079536822012481
+    second: td__runes_55
+  - first:
+      213: -5603987604899506480
+    second: td__runes_56
+  - first:
+      213: 3424391931157435637
+    second: td__runes_57
+  - first:
+      213: 2227376035086367062
+    second: td__runes_58
+  - first:
+      213: 3072012537444203376
+    second: td__runes_59
+  - first:
+      213: 1663943188606666756
+    second: td__runes_60
+  - first:
+      213: -161483714621481829
+    second: td__runes_61
+  - first:
+      213: 7036710935379179005
+    second: td__runes_62
+  - first:
+      213: 8036758081217416368
+    second: td__runes_63
+  - first:
+      213: 4501154178512095338
+    second: td__runes_64
+  - first:
+      213: 6697243615488166809
+    second: td__runes_65
+  - first:
+      213: -6620134611787933629
+    second: td__runes_66
+  - first:
+      213: 8504452328844244987
+    second: td__runes_67
+  - first:
+      213: 3274157482192558048
+    second: td__runes_68
+  - first:
+      213: -8678779721470434854
+    second: td__runes_69
+  - first:
+      213: 65515666199952635
+    second: td__runes_70
+  - first:
+      213: -2201414655153525155
+    second: td__runes_71
+  - first:
+      213: 6314114098095139190
+    second: td__runes_72
+  - first:
+      213: -8297465171503356595
+    second: td__runes_73
+  - first:
+      213: -2107962618990122178
+    second: td__runes_74
+  - first:
+      213: 935771339650763646
+    second: td__runes_75
+  - first:
+      213: 7418695624542083616
+    second: td__runes_76
+  - first:
+      213: -2002955759698221744
+    second: td__runes_77
+  - first:
+      213: 2669447383381099505
+    second: td__runes_78
+  - first:
+      213: -4874929349296179310
+    second: td__runes_79
+  - first:
+      213: 162237825704850836
+    second: td__runes_80
+  - first:
+      213: -9152426755180676480
+    second: td__runes_81
+  - first:
+      213: -5891912465807005656
+    second: td__runes_82
+  - first:
+      213: 3340245534245655850
+    second: td__runes_83
+  - first:
+      213: 3524993737411406795
+    second: td__runes_84
+  - first:
+      213: 3488398829825863835
+    second: td__runes_85
+  - first:
+      213: 5302230125326179570
+    second: td__runes_86
+  - first:
+      213: -8910182598280053963
+    second: td__runes_87
+  - first:
+      213: 3875427184772924371
+    second: td__runes_88
+  - first:
+      213: -7252889757385401321
+    second: td__runes_89
+  - first:
+      213: 1842900054530694926
+    second: td__runes_90
+  - first:
+      213: 5469309249736631056
+    second: td__runes_91
+  - first:
+      213: 1015177053178455724
+    second: td__runes_92
+  - first:
+      213: 3261688631919455783
+    second: td__runes_93
+  - first:
+      213: 8538620901918454683
+    second: td__runes_94
+  - first:
+      213: -4793890610725007466
+    second: td__runes_95
+  - first:
+      213: -2765990859173552229
+    second: td__runes_96
+  - first:
+      213: 7183617807414039520
+    second: td__runes_97
+  - first:
+      213: 5096063054910017914
+    second: td__runes_98
+  - first:
+      213: 7854016328397918911
+    second: td__runes_99
+  - first:
+      213: -904089250245482602
+    second: td__runes_100
+  - first:
+      213: -5378404019014705746
+    second: td__runes_101
+  - first:
+      213: 3023685433602532867
+    second: td__runes_102
+  - first:
+      213: 5325412862464373585
+    second: td__runes_103
+  - first:
+      213: -1372908413039588426
+    second: td__runes_104
+  - first:
+      213: 6328602038060228399
+    second: td__runes_105
+  - first:
+      213: 2140353155012722794
+    second: td__runes_106
+  - first:
+      213: 5890429772188753408
+    second: td__runes_107
+  - first:
+      213: -734689073466292002
+    second: td__runes_108
+  - first:
+      213: -7261450857663019291
+    second: td__runes_109
+  - first:
+      213: -6317908497889262571
+    second: td__runes_110
+  - first:
+      213: -8417804182274826705
+    second: td__runes_111
+  - first:
+      213: -6292662253035285008
+    second: td__runes_112
+  - first:
+      213: -5420136243670661600
+    second: td__runes_113
+  - first:
+      213: -1599510862860748358
+    second: td__runes_114
+  - first:
+      213: -4145635857919125983
+    second: td__runes_115
+  - first:
+      213: -5846202171045623072
+    second: td__runes_116
+  - first:
+      213: -4485310521211336623
+    second: td__runes_117
+  - first:
+      213: 5557852715514566997
+    second: td__runes_118
+  - first:
+      213: 8648783306549184690
+    second: td__runes_119
+  - first:
+      213: -410569630917710464
+    second: td__runes_120
+  - first:
+      213: 5564033354425309514
+    second: td__runes_121
+  - first:
+      213: -4687586248836453059
+    second: td__runes_122
+  - first:
+      213: -2023059445286001893
+    second: td__runes_123
+  - first:
+      213: -5529976896777626263
+    second: td__runes_124
+  - first:
+      213: -8269436629584392899
+    second: td__runes_125
+  - first:
+      213: -5249552417517287316
+    second: td__runes_126
+  - first:
+      213: -1227778339475257995
+    second: td__runes_127
+  - first:
+      213: -3574698256184512185
+    second: td__runes_128
+  - first:
+      213: -1278469227327292264
+    second: td__runes_129
+  - first:
+      213: 765267405941262416
+    second: td__runes_130
+  - first:
+      213: -1183436088899776299
+    second: td__runes_131
+  - first:
+      213: -3892050561489586148
+    second: td__runes_132
+  - first:
+      213: 5879383720106573033
+    second: td__runes_133
+  - first:
+      213: 8810737100045399504
+    second: td__runes_134
+  - first:
+      213: 5791648025551025486
+    second: td__runes_135
+  - first:
+      213: 3748924634757541829
+    second: td__runes_136
+  - first:
+      213: -685540717081131111
+    second: td__runes_137
+  - first:
+      213: -1914267760025777880
+    second: td__runes_138
+  - first:
+      213: -3662492239129228200
+    second: td__runes_139
+  - first:
+      213: 9115900165423210870
+    second: td__runes_140
+  - first:
+      213: -8591787146577601808
+    second: td__runes_141
+  - first:
+      213: -5333707371966079436
+    second: td__runes_142
+  - first:
+      213: 521532694525954529
+    second: td__runes_143
+  - first:
+      213: 6750135273805996287
+    second: td__runes_144
+  - first:
+      213: 8248110800992113009
+    second: td__runes_145
+  - first:
+      213: -7636676564845908697
+    second: td__runes_146
+  - first:
+      213: 6479377401613944069
+    second: td__runes_147
+  - first:
+      213: 2547222560947763812
+    second: td__runes_148
+  - first:
+      213: 1499986934066510138
+    second: td__runes_149
+  - first:
+      213: -7747342748362733330
+    second: td__runes_150
+  - first:
+      213: -928358773238149598
+    second: td__runes_151
+  - first:
+      213: -4457411646722111103
+    second: td__runes_152
+  - first:
+      213: 4151250209610597295
+    second: td__runes_153
+  - first:
+      213: 5371248986514850084
+    second: td__runes_154
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: td__runes_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 452
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc94fb1dcc164145913971361e5f5b3
+      internalID: -3158790935512845484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f66410c9d1a5c6418febb3b92333dfc
+      internalID: 6955063998422169649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 454
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3ae79d54a16d24bb40b596b3bd30c6
+      internalID: 4235866238817859831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 451
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b335c068a6af3684fa08be1e42372db0
+      internalID: 9104682585007121147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bdc8d3da1d7c1449720ea147c53abf
+      internalID: -823465559549527325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 451
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef99a336d44f040b17aa4cb0e1da35
+      internalID: 8925850549109168897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 453
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202d8bab341dd84d9b1d4f9edc4f50a
+      internalID: 2525800567512972917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be799c357ca9ce343a728411d0c5f779
+      internalID: -1814502703499219342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 452
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d6d3f6b3c99a468a7a5fcf704db8f
+      internalID: -52958305810916934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1b8a960317d1a4eabb487382682fb3
+      internalID: 3396141729511767660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 454
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2acdcd12719fc458322dc7fc0578b3
+      internalID: -4031628998451660446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 451
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd2667beb93ea34c9cea2866521d97f
+      internalID: 6322372660078602024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72567ff2d2b25494e9b2684d1fb221b1
+      internalID: 18708388927277845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 451
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7c20141d51ca4692557919b311b36
+      internalID: 2128835785101183906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 453
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebe45daa00b01643b7f6d4e5dabe00d
+      internalID: 1654957585839294132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 452
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9d92272f2cd3d43b22d2b84f46dfef
+      internalID: 5585835991857498879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 419
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f531e8ab4041840aaae2dfabeb0ce1
+      internalID: -5301464985012286502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 420
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c30f49a9b14deb4d85b2c0d74fa4825
+      internalID: -4923545385156065937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 419
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f948558db5ed314ca45342541064c16
+      internalID: -4439863172598765311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 419
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f2ae7ee01092b4fb5c334e1531313f
+      internalID: 6987154841806939718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 419
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65e256cd06f4f4dbec6568ad5f52f2
+      internalID: -7107009130086392795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 420
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa16e429599ac9418a16284fba32bf3
+      internalID: -8099884871622102989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 419
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d922e5459f765a1458a508ca5eae748b
+      internalID: 6199699214273794411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 419
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ebe3c54316a94408f730850704bbb2
+      internalID: -2180011100023296529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 419
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19f1f08ad4e83046a79b3164f1b3e68
+      internalID: 7300195261512517492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 420
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee1b12e6cec4734d978a10e06967d86
+      internalID: 1076427611768162937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 419
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991ed5d3c2da4e44aa19b49984fae89
+      internalID: -1150962536322504504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_27
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 419
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62790d2253bf5244aa46bd94ed38ea0
+      internalID: -1377662696327310834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_28
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 419
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef7778226155dd48bf9c318e6cf50dc
+      internalID: 2007329156800315797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 420
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32576c687d9b6419760281756953ef
+      internalID: 7517993670013749814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_30
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 419
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74106eb26aec4bb44a97bcbb4826d254
+      internalID: -2993051514842159878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_31
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 419
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0de3b5b791e634f859378c637ffe64
+      internalID: -6462606550067789375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 387
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c9f8d439aa7142b684dfd37dd6012
+      internalID: 4738845711148965920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 387
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dfbc2f9a9ad774185e8be00c130895
+      internalID: -8495784824084788388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 388
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3432ca565e9fd9449be8abe527d59651
+      internalID: 8826465632896623525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_35
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 386
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb078b4818acd84993c99ee24f87151
+      internalID: 8664021549428501278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 388
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7068dde7fe28914f9ec38d740575638
+      internalID: -1182732593731583665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 389
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b77edb6a426c145b6a47dc613cb17c
+      internalID: 1714054355831794231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_38
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 387
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c469259afed1047907384be03806ca
+      internalID: 3898222242253131231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_39
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 387
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f524018eaba3b8347a989f376a7afab8
+      internalID: 2760171407186050606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_40
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 387
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9861d802250e940b6375341fea2abd
+      internalID: -7440255849435242714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_41
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 387
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f8f7ea1bd1aef4e86753f867587351
+      internalID: 365671304182209228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 388
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d984ba7a06980f84fb18d51d36679948
+      internalID: -5493448890674461385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_43
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 386
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f58a454b5863d64ba829c09119e369c
+      internalID: -6994422283224132970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 388
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec154be2c6e40442abc3f8e23c9b645
+      internalID: -5314882444234677180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_45
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 388
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d36a850549bb9942ba04202a49f4704
+      internalID: -1647846032331301162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_46
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 387
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a978f7bbe3188148a278a30f0600ba5
+      internalID: -1665873130491823899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_47
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 387
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4043340d7f4e4fe4bb9742919332128a
+      internalID: -950395556402636082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 356
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c2e9b5ea4668429372d19e2dbcb1c
+      internalID: -7593714744425608628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 356
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec3bcb3e4ea1147b7e844253b77c20
+      internalID: 8813088149381947868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 358
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f1f9a2c69018943b0e37fc8f22e18a
+      internalID: -5903090285408987046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 355
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9c9c778001f640adf572d64d22341
+      internalID: -868570321707034320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 356
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a243e9092bd3cef48938c739ba89b869
+      internalID: 8811104527406911011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_53
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 355
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebab27a75c48ba44b392cd4da25d4e8
+      internalID: -6733025347069164482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_54
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 357
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344fc7ec9b42f5a4da310d999a02d900
+      internalID: -1330841614650908809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 356
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae1097d580bca541addbe6b3a87c20e
+      internalID: 2169079536822012481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_56
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 93
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718ed88ff3d1a6b4388ff0fd866bf03b
+      internalID: -5603987604899506480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 283
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b94f4f9f41e7040ba860d7185f71a6
+      internalID: 3424391931157435637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_58
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 257
+        width: 29
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934d763307ef7346b6f60c3e674438f
+      internalID: 2227376035086367062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_59
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 30
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ff2c0e0f952b46855e4f5439eccbd
+      internalID: 3072012537444203376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 29
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e03fcbbfeddb14eb67ecc7cfb884ed
+      internalID: 1663943188606666756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_61
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 24
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a398beccfb0c6d448c1bfd5f8d9db72
+      internalID: -161483714621481829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_62
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 30
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31a1ae5165fdc24cb01165b0710311f
+      internalID: 7036710935379179005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b90dcd648d63774aacd498a9328b664
+      internalID: 8036758081217416368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_64
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 323
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d3dfdb59fbeb04494ae49b9eb0cab0
+      internalID: 4501154178512095338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 324
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e25b03fddb8644c8fab8c19ebfd546
+      internalID: 6697243615488166809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_66
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 323
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b69c0d6991a724898f4df6e262cdaf
+      internalID: -6620134611787933629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 323
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bd743ae27142b46a419603f3b03d43
+      internalID: 8504452328844244987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_68
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 323
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8e69f988e6c0e45b74408e0a70e048
+      internalID: 3274157482192558048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_69
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 324
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3f00edd72cdb4e80a6b9e97c04aa6
+      internalID: -8678779721470434854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 323
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979e5827ebf64e74992ef51f0fde682c
+      internalID: 65515666199952635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_71
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 323
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17575950c3023d747bf19062583f17b7
+      internalID: -2201414655153525155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 291
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1266dba603ffb3441ba3f94b87b2ce16
+      internalID: 6314114098095139190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_73
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 291
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c28257a5324be4b91ef8dd7cc33c25
+      internalID: -8297465171503356595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 292
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ac41053767e345a1061afc7d60ea7
+      internalID: -2107962618990122178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_75
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 290
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782174d8a5e50b48a8b65e08e20664a
+      internalID: 935771339650763646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_76
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 292
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7176514843d6a4f84bc85357811abc
+      internalID: 7418695624542083616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 293
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1506dfd1b9c784ab71984ba90d4bd0
+      internalID: -2002955759698221744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_78
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 291
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7d2ad9a1889864da793f14dd393445
+      internalID: 2669447383381099505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_79
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 291
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b886bbebdb6746990e19e47b305f8
+      internalID: -4874929349296179310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 260
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7502d02a58029c44b5a3acf1b7e030a
+      internalID: 162237825704850836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 260
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fff4f7be8262d4bac5c9328d97dcf3
+      internalID: -9152426755180676480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 262
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f57efac43b2454ba521ebf24823a4f
+      internalID: -5891912465807005656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_83
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 259
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504cd4fc7ab8eb4eada6e008cada09a
+      internalID: 3340245534245655850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_84
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 260
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1185a07990e34483724a362371912
+      internalID: 3524993737411406795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_85
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 259
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0d37c520eca7b4fb96c0d26026ce6a
+      internalID: 3488398829825863835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 261
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dd9087c005bc04e986ef8f4e809ce2
+      internalID: 5302230125326179570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_87
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 260
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8639aafded9223a4ea02fbba1c90f3bf
+      internalID: -8910182598280053963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 227
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e4d6ca2f9fb14b8adc693fc7badb3
+      internalID: 3875427184772924371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 228
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a0ab464e6bf2c44ba91b2ed05bca97
+      internalID: -7252889757385401321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_90
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 227
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3084d5ccf8a8c04fb9d0c5a1dc5e204
+      internalID: 1842900054530694926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_91
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 227
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12db91c8bf72cf439b70a027182a82e
+      internalID: 5469309249736631056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_92
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 227
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8665e2a68e9294d8dee2500984bf71
+      internalID: 1015177053178455724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_93
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 228
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9243d49c7339c5409a969729f2f6e44
+      internalID: 3261688631919455783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 227
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902021d4db3156f4498dcdd2ba7ece3c
+      internalID: 8538620901918454683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_95
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 227
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f31b1a352422a47bd16b6644b539e1
+      internalID: -4793890610725007466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_96
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 161
+        width: 29
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dc605064040c24782d48a415561d30
+      internalID: -2765990859173552229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 195
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b39ad9bce6a06b4ebb13b8537764165
+      internalID: 7183617807414039520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_98
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 195
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88821707e4070447a6fd437360d87f8
+      internalID: 5096063054910017914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_99
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 196
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cc18e78ced44e4aab4a249bf76bd05
+      internalID: 7854016328397918911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_100
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 194
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2e958e487468c42b29a553161a8478
+      internalID: -904089250245482602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 196
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a0eb1b5352fbb4eaadb775e0d0af11
+      internalID: -5378404019014705746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_102
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 196
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b9060410790c04182112a32e857c9d
+      internalID: 3023685433602532867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_103
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 195
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50780dfe8b191a409d4f9c046be592c
+      internalID: 5325412862464373585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_104
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 195
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d510012471e2b5479d16f1efd21c019
+      internalID: -1372908413039588426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_105
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 163
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08d2aa0f4d897478e55b4ebbe3e839
+      internalID: 6328602038060228399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 163
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5533eb0fff88744af617d00bd16689
+      internalID: 2140353155012722794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_107
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 165
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6867c3fd95146b4ea292e96dfc1b887
+      internalID: 5890429772188753408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_108
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 162
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c1060d2dda0ca4b95b9ea873bba407
+      internalID: -734689073466292002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_109
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 163
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd16499f2662084fb2fcb1fed1b47ff
+      internalID: -7261450857663019291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_110
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 162
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f79f24aaa7107499917d288dfd686f
+      internalID: -6317908497889262571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_111
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 164
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6612139d985aad442aad973459e63140
+      internalID: -8417804182274826705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_112
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 163
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67249f510ac4054cb44feb5f70bb4c6
+      internalID: -6292662253035285008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_113
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b86299bc5945824090827be7e52b9f7
+      internalID: -5420136243670661600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_114
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 131
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdba7fcb1ef33c47921eff9519d6b10
+      internalID: -1599510862860748358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_115
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 130
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7382b90c6dfa1a429f891fddf47e899
+      internalID: -4145635857919125983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_116
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 130
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f17154c888b7c479d18acf7a35ea21
+      internalID: -5846202171045623072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_117
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 130
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e4f989576560448661617f42cdcd9
+      internalID: -4485310521211336623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_118
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 131
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79770695ce842c049959fefb7655a83d
+      internalID: 5557852715514566997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_119
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 130
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cb48ab554937544a783351962dddf9
+      internalID: 8648783306549184690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_120
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 130
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6190958a72ce543b55fee6663ecea8
+      internalID: -410569630917710464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_121
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 65
+        width: 29
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0569b05cb78d794192678c10bd1cae6
+      internalID: 5564033354425309514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_122
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ae1154677fb8469fef460850c4b4d
+      internalID: -4687586248836453059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_123
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 98
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df24b56e4beafb429097cc6cab34371
+      internalID: -2023059445286001893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_124
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06783b1bcd0991f4081d5885e943fc75
+      internalID: -5529976896777626263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_125
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 97
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6552217128c201478fd4a5d30b86ca6
+      internalID: -8269436629584392899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_126
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 99
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8c8b5d156f1e469fec31883c3518f
+      internalID: -5249552417517287316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_127
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 99
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a18fab8b7798d8489eb18775e2cfa8c
+      internalID: -1227778339475257995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_128
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 98
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b81c378ae61354299ef1143b5e175b
+      internalID: -3574698256184512185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_129
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dc6b9030d42d0489c2fb6a15d7f601
+      internalID: -1278469227327292264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 67
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d1d9848b9474a428e6f6da533f3119
+      internalID: 765267405941262416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_131
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 67
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab47d888f5c9c41bf0e82595d07952
+      internalID: -1183436088899776299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_132
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f679963c820e4f95b10a6ce176f50
+      internalID: -3892050561489586148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_133
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 66
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad4a2d46177a664a9edaa8105003a6b
+      internalID: 5879383720106573033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adad0afe7a9ff7e49b13cf55c8e65072
+      internalID: 8810737100045399504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_135
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 66
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5919f2890ee8fc54b8070c6a4905d721
+      internalID: 5791648025551025486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 68
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba75cb78a0645ee4594680f98d6e4b11
+      internalID: 3748924634757541829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_137
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 67
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cef5de8c35d9440be7e276c7583729
+      internalID: -685540717081131111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_138
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 34
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0c46beb42b0446b997b795ce6c2c7
+      internalID: -1914267760025777880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_139
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f20e21492440540881cccab90be5b1
+      internalID: -3662492239129228200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_140
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f39a7c3ce77d245b0f6bd4f929a660
+      internalID: 9115900165423210870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_141
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 34
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ebeabbaf0cad8469c5da5a34078e53
+      internalID: -8591787146577601808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_142
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd4105d5ce6d514ca2269ae9078495f
+      internalID: -5333707371966079436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_143
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 35
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c7b86e21a574747b85198b15dd37ed
+      internalID: 521532694525954529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_144
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 34
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9676ba529dfe97141b93413f71f326f9
+      internalID: 6750135273805996287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_145
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 34
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414daec9d524f9c4b982e5d3072a1954
+      internalID: 8248110800992113009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_146
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3516fcd4e789f4c94837f2542850f9
+      internalID: -7636676564845908697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_147
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b937a9237cab88b48b68abc78c7529fc
+      internalID: 6479377401613944069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_148
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca11ee103f858e34097b1797ccc24737
+      internalID: 2547222560947763812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_149
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8bdeede0e764d44b0c046aab70dc27
+      internalID: 1499986934066510138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_150
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5da76d95ec22e41bc53c0110acfb53
+      internalID: -7747342748362733330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_151
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9171bc3fd6715e4b89bf81885dedcb8
+      internalID: -928358773238149598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_152
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 3
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6da648b4123824c85d797e3b0836f2
+      internalID: -4457411646722111103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_153
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2951c3405d0ba49a9d1da9b3b49799
+      internalID: 4151250209610597295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: td__runes_154
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99292ca1ca1c1a44868f86efb62d5ed
+      internalID: 5371248986514850084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c817d9bd895a604dacb3689884db932
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

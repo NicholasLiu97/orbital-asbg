@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum CellState
+public enum CellState //so that we know what cells can be added to the highlighted cells
 {
     None,
     Friendly,
@@ -17,6 +17,8 @@ public class Board : MonoBehaviour
     public GameObject mCellPrefab;
     public GameObject mCellBarrackPrefab;
     public GameObject mCellHillPrefab;
+    public GameObject mCellAttackPrefab;
+
 
     public PieceManager mPieceManager;
 
@@ -35,9 +37,13 @@ public class Board : MonoBehaviour
                 {
                     newCell = Instantiate(mCellHillPrefab, transform);
                 }
-                else if ((x == 3 || x == 4 || x == 5) && (y == 1 || y == 7))
+                else if (y == 1 || y == 7)
                 {
                     newCell = Instantiate(mCellBarrackPrefab, transform);
+                }
+                else if ((x == 3 || x == 5) && (y == 3 || y == 5))
+                {
+                    newCell = Instantiate(mCellAttackPrefab, transform);
                 }
                 else
                 {

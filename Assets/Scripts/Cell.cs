@@ -38,26 +38,41 @@ public class Cell : EventTrigger
         }
     }
 
-    public void ReducePieceHealth(int mAttack)
+    /*
+    public bool ReducePieceHealth(int AttackerDmg, int DefenderDmg)
     {
         if (mCurrentPiece != null)
         {
             int CalculatedDamage = 0;
-            int EnemyRoll = Random.Range(1, 5);//max is exclusive, returns 1-4 range
-            int FriendlyRoll = Random.Range(1, 5);
+            int EnemyRoll = Random.Range(0, 4);//max is exclusive, returns 1-3 range
+            int FriendlyRoll = Random.Range(0, 4);
 
-            CalculatedDamage = mAttack; //TOBECHANGED
+            CalculatedDamage = AttackerDmg;
+            //CalculatedDamage = (EnemyRoll + AttackerDmg) - (DefenderDmg); //TOBECHANGED
                 //(EnemyRoll + mAttack) - (FriendlyRoll + mCurrentPiece.CurrentHealth);
-            Debug.Log(mAttack);
+            Debug.Log(AttackerDmg);
             Debug.Log(EnemyRoll);
-            Debug.Log(mAttack);
+            Debug.Log(DefenderDmg);
+            Debug.Log(FriendlyRoll);
             Debug.Log(CalculatedDamage);
-
+            
             if (CalculatedDamage < 0)
                 CalculatedDamage = 0;
             mCurrentPiece.DamagePiece(CalculatedDamage);
+            mCurrentPiece.AnimationDamage(CalculatedDamage, EnemyRoll);
+
+            if(EnemyRoll <= 3)
+            {
+                return true;
+            }
+            else
+            {
+                return false; 
+            }
         }
+        return false;
     }
+    */
 
     //for moving and attacking
     public override void OnPointerClick(PointerEventData eventData)

@@ -1,7 +1,8 @@
-﻿    using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class Titan : BasePiece
 {
     //private new int CurrentHealth = 12;
@@ -28,13 +29,21 @@ public class Titan : BasePiece
 
         healthText.text = CurrentHealth.ToString();
 
+        //movement
+        mMovement = new Vector3Int(1, 1, 1);
+
+        //animation
+        animator = GetComponentInChildren<Animator>();
+        animator.SetBool("attacked", false);
+        textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
+
         if (newTeamColor == Color.blue)
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("BlueTitan_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("BlueTitan_1.0");
         }
         else
         {
-            GetComponent<Image>().sprite = Resources.Load<Sprite>("RedTitan_1.0");
+            GetComponentsInChildren<Image>()[1].sprite = Resources.Load<Sprite>("RedTitan_1.0");
         }
     }
 
@@ -48,9 +57,8 @@ public class Titan : BasePiece
     public override void Reset()
     {
         Kill();
+        CurrentHealth = maxHealth;
+        UpdateHealth();
         Place(mOriginalCell);
-        CurrentHealth = TitanMaxHealth;
-        healthSlider.value = TitanMaxHealth;
-        healthText.text = TitanMaxHealth.ToString();
     }
 }

@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: ac7a5a4902bf5da4ab06ccdea10b2399
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7239728264764024600
+    second: 112100-shoes-and-boats-line-craft
+  - first:
+      213: 4431530038936740483
+    second: 112100-shoes-and-boats-line-craft_0
+  - first:
+      213: -879312502711743529
+    second: 112100-shoes-and-boats-line-craft_1
+  - first:
+      213: -6939230315177554372
+    second: 112100-shoes-and-boats-line-craft_2
+  - first:
+      213: -3978780126751948224
+    second: 112100-shoes-and-boats-line-craft_3
+  - first:
+      213: 8542191027634336151
+    second: 112100-shoes-and-boats-line-craft_4
+  - first:
+      213: -5437690288818183150
+    second: 112100-shoes-and-boats-line-craft_5
+  - first:
+      213: 4677787788258561307
+    second: 112100-shoes-and-boats-line-craft_6
+  - first:
+      213: 191692087268951248
+    second: 112100-shoes-and-boats-line-craft_7
+  - first:
+      213: -4222614329035986267
+    second: 112100-shoes-and-boats-line-craft_8
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 415
+        width: 128
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e3e5ad54842134f81a46744dbbe04a
+      internalID: 4431530038936740483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 420
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7189ae0dacd9f6443b008ba5a6cb66dd
+      internalID: -879312502711743529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 444
+        width: 128
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e55b084f05826b4fb116e05c9b4cb02
+      internalID: -6939230315177554372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 257
+        width: 128
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dfcd6d5a6c15a4798158a45f46d5e7
+      internalID: -3978780126751948224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 254
+        width: 128
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85284da4c7c6a14fa403c56a2d319c0
+      internalID: 8542191027634336151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_5
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 234
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea504e2a99ffda41b2b077aad672698
+      internalID: -5437690288818183150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 73
+        width: 128
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e57be572b586014abf2e2f889340718
+      internalID: 4677787788258561307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8bd5c8fcaa1084b8fc0c6d298710d4
+      internalID: 191692087268951248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 112100-shoes-and-boats-line-craft_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 56
+        width: 128
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d2940195e83924a87d256740e64b2e
+      internalID: -4222614329035986267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfff62c2858e27b4f9fa8c8c6787e567
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
